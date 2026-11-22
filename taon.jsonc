@@ -3,7 +3,6 @@
   "packageJsonOverride": {
     "author": "Dfilipiak",
     "description": "Description for baseline-docs. Hello world!",
-    "private": true,
     "scripts": {},
   },
   "version": "v21",
