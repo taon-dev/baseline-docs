@@ -157,7 +157,7 @@ const t = Translation.for(Taon.__FILE_RELATIVE_PATH, Taon.LANG_IMPORT_MAP, {
         <nav class="shadow-1 w-full p-2">
           <button
             mat-icon-button
-            (click)="openDialog(200, 200)">
+            (click)="openSettings(200, 200)">
             <mat-icon>settings</mat-icon>
           </button>
         </nav>
@@ -262,7 +262,7 @@ export class BaselineDocsApp implements OnInit {
     .request()
     .observable.pipe(map(r => r.body.text));
 
-  openDialog(
+  openSettings(
     enterAnimationDuration: string | number,
     exitAnimationDuration: string | number,
   ): void {
@@ -276,9 +276,8 @@ export class BaselineDocsApp implements OnInit {
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
-    console.log(globalThis?.location.pathname);
     // TODO set below from 1000 to zero in production
-    void Taon.removeLoader(1000).then(() => {
+    void Taon.removeLoader().then(() => {
       this.itemsLoaded.set(true);
     });
   }
@@ -357,11 +356,12 @@ export const BaselineDocsClientRoutes: Routes = [
     path: '',
     pathMatch: 'full',
     redirectTo: () => {
-      if (BaselineDocsClientRoutes.length === 1) {
-        return '';
-      }
-      return BaselineDocsClientRoutes.find(r => r.path !== '')!.path!;
+      return 'docs';
     },
+  },
+  {
+    path: 'docs',
+    loadChildren: () => import('baseline-docs/src').then(m => m.DocsPageRoutes),
   },
   // PUT ALL ROUTES HERE
   // @placeholder-for-routes

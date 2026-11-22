@@ -1,5 +1,3 @@
 # baseline-docs
 
-Hello from Standalone Project
-
-       
+Welcome. Taon docs are amazing ! 

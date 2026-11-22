@@ -89,7 +89,6 @@
     "node_modules": true,
     ".build": true,
     ".vscode": true,
-    ".ai": true,
     "databases": true,
     "browser": true,
     "dist": true,
@@ -102,7 +101,6 @@
     "**/node_modules": true,
     "**/.build": true,
     "**/.vscode": true,
-    "**/.ai": true,
     "**/databases": true,
     "**/browser": true,
     "**/dist": true,
@@ -118,7 +116,9 @@
     "src/app.auto-gen-ver.js": true,
     "**/src/app.auto-gen-docs.md": true,
     "**/src/app.auto-gen-ver.js": true,
-    "sub-projects": true
+    "sub-projects": true,
+    ".ai": true,
+    "**/.ai": true
   },
   "window.title": "taon-dev/baseline-docs () [ ${activeEditorShort}]",
   "files.exclude": {
