@@ -15,7 +15,7 @@ export const DocsPageRoutes: Routes = [
       {
         path: '',
         pathMatch: 'full',
-        redirectTo: 'taon/README.md',
+        redirectTo: 'baseline-docs/README.md',
       },
       {
         path: '',
