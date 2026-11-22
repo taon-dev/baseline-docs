@@ -153,6 +153,26 @@
       ],
       "symbolIds": []
     },
+    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts": {
+      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
+      ]
+    },
+    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts": {
+      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+      ]
+    },
     "src/lib/i18n/lib.translation.ts": {
       "id": "src/lib/i18n/lib.translation.ts",
       "imports": [
@@ -373,10 +393,10 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "\"21.0.0\"",
+        "text": "\"21.0.2\"",
         "symbolIds": []
       },
-      "value": "'21.0.0'",
+      "value": "'21.0.2'",
       "taonCategory": "other"
     },
     "src/lib/docs-page/docs-page.component.ts#DocsPageComponent": {
@@ -780,6 +800,70 @@
       "value": "[\n  //#region routers\n  {\n    path: '',\n    component: DocsPageComponent,\n    children: [\n      {\n        path: '',\n        pathMatch: 'full',\n        redirectTo: 'baseline-docs/README.md',\n      },\n      {\n        path: '',\n        loadChildren: () =>\n          import('baseline-docs/src').then(m => m.BaselineDocsDocsRoutes),\n      },\n    ],\n  },\n\n  //#endregion\n]",
       "taonCategory": "other"
     },
+    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs": {
+      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "interface",
+      "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs": {
+      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "interface",
+      "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
     "src/lib/i18n/lib.translation.ts#LibOverride": {
       "id": "src/lib/i18n/lib.translation.ts#LibOverride",
       "name": "LibOverride",
@@ -809,8 +893,12 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
-        "symbolIds": []
+        "text": "LibOverride",
+        "symbolIds": [
+          "src/lib/i18n/lib.translation.ts#LibOverride",
+          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+        ]
       },
       "taonCategory": "other"
     }
@@ -1249,6 +1337,62 @@
           "typeParameters": []
         }
       ]
+    },
+    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"": {
+      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"",
+      "ownerId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "\"en-US\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"": {
+      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
+      "ownerId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "\"pl-PL\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type"
+        ]
+      }
     }
   },
   "relations": [
@@ -1256,6 +1400,26 @@
       "fromId": "src/lib/start-cli.ts#$Version",
       "toId": "src/lib/start-cli.ts#__type",
       "kind": "extends"
+    },
+    {
+      "fromId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"",
+      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
+      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "references"
     }
   ],
   "exports": [
@@ -1433,6 +1597,16 @@
       "moduleId": "src/lib/docs-page/index.ts",
       "name": "DocsPageComponent",
       "symbolId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent"
+    },
+    {
+      "moduleId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+      "name": "EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "symbolId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
+    },
+    {
+      "moduleId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+      "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "symbolId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
     },
     {
       "moduleId": "src/lib/i18n/lib.translation.ts",
