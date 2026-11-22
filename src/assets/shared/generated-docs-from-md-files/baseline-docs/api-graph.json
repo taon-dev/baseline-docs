@@ -50,13 +50,19 @@
     "src/lib/migrations/migrations_index._auto-generated_.ts": {
       "id": "src/lib/migrations/migrations_index._auto-generated_.ts",
       "imports": [],
-      "exports": [],
-      "symbolIds": []
+      "exports": [
+        "MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
+      ],
+      "symbolIds": [
+        "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
+      ]
     },
     "src/lib/migrations/index.ts": {
       "id": "src/lib/migrations/index.ts",
       "imports": [],
-      "exports": [],
+      "exports": [
+        "MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
+      ],
       "symbolIds": []
     },
     "src/lib/my-organization-proj.ts": {
@@ -112,6 +118,7 @@
       "id": "src/lib/index.ts",
       "imports": [],
       "exports": [
+        "MIGRATIONS_CLASSES_FOR_BaselineDocsContext",
         "BUILD_FRAMEWORK_CLI_NAME",
         "APP_ID",
         "BUILD_BASE_HREF",
@@ -145,26 +152,6 @@
         "DocsPageComponent"
       ],
       "symbolIds": []
-    },
-    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts": {
-      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
-      ],
-      "symbolIds": [
-        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
-      ]
-    },
-    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts": {
-      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
-      ],
-      "symbolIds": [
-        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
-      ]
     },
     "src/lib/i18n/lib.translation.ts": {
       "id": "src/lib/i18n/lib.translation.ts",
@@ -447,6 +434,43 @@
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:ngOnDestroy"
       ],
       "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext": {
+      "id": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext",
+      "name": "MIGRATIONS_CLASSES_FOR_BaselineDocsContext",
+      "kind": "variable",
+      "fileId": "src/lib/migrations/migrations_index._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/migrations/migrations_index._auto-generated_.ts",
+          "line": 4,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/migrations/migrations_index._auto-generated_.ts",
+        "src/lib/migrations/index.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "{}",
+        "symbolIds": [
+          "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
+        ]
+      },
+      "value": "{}",
       "taonCategory": "other"
     },
     "src/lib/my-organization-proj.ts#t": {
@@ -753,71 +777,7 @@
         "text": "Routes",
         "symbolIds": []
       },
-      "value": "[\n  //#region routers\n  {\n    path: '',\n    component: DocsPageComponent,\n    children: [\n      {\n        path: '',\n        pathMatch: 'full',\n        redirectTo: 'taon/README.md',\n      },\n      {\n        path: '',\n        loadChildren: () =>\n          import('baseline-docs/src').then(m => m.BaselineDocsDocsRoutes),\n      },\n    ],\n  },\n\n  //#endregion\n]",
-      "taonCategory": "other"
-    },
-    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs": {
-      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
-      "name": "EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
-      "kind": "interface",
-      "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\""
-      ],
-      "signatures": [],
-      "taonCategory": "other"
-    },
-    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs": {
-      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
-      "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
-      "kind": "interface",
-      "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\""
-      ],
-      "signatures": [],
+      "value": "[\n  //#region routers\n  {\n    path: '',\n    component: DocsPageComponent,\n    children: [\n      {\n        path: '',\n        pathMatch: 'full',\n        redirectTo: 'baseline-docs/README.md',\n      },\n      {\n        path: '',\n        loadChildren: () =>\n          import('baseline-docs/src').then(m => m.BaselineDocsDocsRoutes),\n      },\n    ],\n  },\n\n  //#endregion\n]",
       "taonCategory": "other"
     },
     "src/lib/i18n/lib.translation.ts#LibOverride": {
@@ -849,12 +809,8 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "LibOverride",
-        "symbolIds": [
-          "src/lib/i18n/lib.translation.ts#LibOverride",
-          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
-          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
-        ]
+        "text": "any",
+        "symbolIds": []
       },
       "taonCategory": "other"
     }
@@ -1293,62 +1249,6 @@
           "typeParameters": []
         }
       ]
-    },
-    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"": {
-      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"",
-      "ownerId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
-      "name": "\"en-US\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#__type"
-        ]
-      }
-    },
-    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"": {
-      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
-      "ownerId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
-      "name": "\"pl-PL\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type"
-        ]
-      }
     }
   },
   "relations": [
@@ -1356,26 +1256,6 @@
       "fromId": "src/lib/start-cli.ts#$Version",
       "toId": "src/lib/start-cli.ts#__type",
       "kind": "extends"
-    },
-    {
-      "fromId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"",
-      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#__type",
-      "kind": "property-type"
-    },
-    {
-      "fromId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
-      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type",
-      "kind": "property-type"
-    },
-    {
-      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
-      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
-      "kind": "references"
-    },
-    {
-      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
-      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
-      "kind": "references"
     }
   ],
   "exports": [
@@ -1413,6 +1293,16 @@
       "moduleId": "src/lib/docs-page/docs-page.component.ts",
       "name": "DocsPageComponent",
       "symbolId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent"
+    },
+    {
+      "moduleId": "src/lib/migrations/migrations_index._auto-generated_.ts",
+      "name": "MIGRATIONS_CLASSES_FOR_BaselineDocsContext",
+      "symbolId": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
+    },
+    {
+      "moduleId": "src/lib/migrations/index.ts",
+      "name": "MIGRATIONS_CLASSES_FOR_BaselineDocsContext",
+      "symbolId": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
     },
     {
       "moduleId": "src/lib/my-organization-proj.ts",
@@ -1481,6 +1371,11 @@
     },
     {
       "moduleId": "src/lib/index.ts",
+      "name": "MIGRATIONS_CLASSES_FOR_BaselineDocsContext",
+      "symbolId": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_BaselineDocsContext"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
       "name": "BUILD_FRAMEWORK_CLI_NAME",
       "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME"
     },
@@ -1538,16 +1433,6 @@
       "moduleId": "src/lib/docs-page/index.ts",
       "name": "DocsPageComponent",
       "symbolId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent"
-    },
-    {
-      "moduleId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
-      "name": "EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
-      "symbolId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
-    },
-    {
-      "moduleId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
-      "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
-      "symbolId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
     },
     {
       "moduleId": "src/lib/i18n/lib.translation.ts",

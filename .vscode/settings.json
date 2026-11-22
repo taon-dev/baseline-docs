@@ -117,8 +117,7 @@
     "**/src/app.auto-gen-docs.md": true,
     "**/src/app.auto-gen-ver.js": true,
     "sub-projects": true,
-    ".ai": true,
-    "**/.ai": true
+    ".ai": true
   },
   "window.title": "taon-dev/baseline-docs () [ ${activeEditorShort}]",
   "files.exclude": {

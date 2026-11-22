@@ -1,0 +1,31 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentHtml } from './models.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentHtml } from './models.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentTs } from './models.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentTs } from './models.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.pl-PL.i18n.data';;
+export type SpecialFilesOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesModelsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesUtilsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsSpecialFilesValidatorsComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

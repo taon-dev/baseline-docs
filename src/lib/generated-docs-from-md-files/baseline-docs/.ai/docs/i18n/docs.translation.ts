@@ -1,0 +1,71 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentHtml } from './architecture.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentHtml } from './architecture.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentTs } from './architecture.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentTs } from './architecture.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentHtml } from './dependency-injection.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentHtml } from './dependency-injection.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentTs } from './dependency-injection.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentTs } from './dependency-injection.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentHtml } from './framework.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentHtml } from './framework.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentTs } from './framework.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentTs } from './framework.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentHtml } from './i18n.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentHtml } from './i18n.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentTs } from './i18n.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentTs } from './i18n.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentHtml } from './isomorphic-code-regions.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentHtml } from './isomorphic-code-regions.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentTs } from './isomorphic-code-regions.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentTs } from './isomorphic-code-regions.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentHtml } from './realtime.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentHtml } from './realtime.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentTs } from './realtime.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentTs } from './realtime.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentHtml } from './transport-layer.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentHtml } from './transport-layer.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentTs } from './transport-layer.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentTs } from './transport-layer.component.ts.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentHtml } from './what-to-avoid.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentHtml } from './what-to-avoid.component.html.pl-PL.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentTs } from './what-to-avoid.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentTs } from './what-to-avoid.component.ts.pl-PL.i18n.data';;
+export type DocsOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsArchitectureComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsDependencyInjectionComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsFrameworkComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsI18NComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsIsomorphicCodeRegionsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsRealtimeComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsTransportLayerComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesBaselineDocsAiDocsWhatToAvoidComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        
