@@ -30,7 +30,6 @@
       "imports": [
         "@angular/common",
         "@angular/core",
-        "@angular/core",
         "@angular/platform-browser",
         "@angular/router",
         "@angular/router",
@@ -39,7 +38,7 @@
         "taon/src",
         "taon-ui/src",
         "tnp-core/src",
-        "www-taon-dev/src"
+        "../generated-docs-from-md-files/all-docs-index-data"
       ],
       "exports": [
         "DocsPageComponent"
@@ -401,7 +400,7 @@
       "locations": [
         {
           "fileId": "src/lib/docs-page/docs-page.component.ts",
-          "line": 28,
+          "line": 25,
           "column": 1
         }
       ],
@@ -430,13 +429,6 @@
         {
           "kind": "implements",
           "type": {
-            "text": "OnInit",
-            "symbolIds": []
-          }
-        },
-        {
-          "kind": "implements",
-          "type": {
             "text": "OnDestroy",
             "symbolIds": []
           }
@@ -445,20 +437,13 @@
       "members": [
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:sub",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:cdr",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:WwwTaonDevDocsIndexData",
+        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:indexData",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:menuItems",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:pageHeadings",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:height",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:initialPath",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:domSanitier",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:activatedRoute",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:router",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:link",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::getter:rootRouteUrl",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::getter:baseHref",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:ngOnInit",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:onRouteActivate",
-        "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:onResize",
         "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:ngOnDestroy"
       ],
       "signatures": [],
@@ -892,7 +877,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 42,
+        "line": 39,
         "column": 3
       },
       "signatures": [],
@@ -918,7 +903,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 44,
+        "line": 41,
         "column": 3
       },
       "signatures": [],
@@ -927,10 +912,10 @@
         "symbolIds": []
       }
     },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:WwwTaonDevDocsIndexData": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:WwwTaonDevDocsIndexData",
+    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:indexData": {
+      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:indexData",
       "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "WwwTaonDevDocsIndexData",
+      "name": "indexData",
       "kind": "property",
       "visibility": "public",
       "static": false,
@@ -944,7 +929,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 46,
+        "line": 43,
         "column": 3
       },
       "signatures": [],
@@ -970,7 +955,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 48,
+        "line": 45,
         "column": 3
       },
       "signatures": [],
@@ -996,90 +981,12 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 75,
+        "line": 73,
         "column": 3
       },
       "signatures": [],
       "type": {
         "text": "DocsHeading[]",
-        "symbolIds": []
-      }
-    },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:height": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:height",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "height",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 77,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "number",
-        "symbolIds": []
-      }
-    },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:initialPath": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:initialPath",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "initialPath",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 79,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "string",
-        "symbolIds": []
-      }
-    },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:domSanitier": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:domSanitier",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "domSanitier",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 81,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "DomSanitizer",
         "symbolIds": []
       }
     },
@@ -1100,64 +1007,12 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 83,
+        "line": 75,
         "column": 3
       },
       "signatures": [],
       "type": {
         "text": "ActivatedRoute",
-        "symbolIds": []
-      }
-    },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:router": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:router",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "router",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 85,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "Router",
-        "symbolIds": []
-      }
-    },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:link": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::property:link",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "link",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 87,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "string",
         "symbolIds": []
       }
     },
@@ -1178,7 +1033,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 91,
+        "line": 77,
         "column": 3
       },
       "signatures": [
@@ -1214,7 +1069,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 100,
+        "line": 86,
         "column": 3
       },
       "signatures": [
@@ -1233,38 +1088,6 @@
         "symbolIds": []
       }
     },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:ngOnInit": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:ngOnInit",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "ngOnInit",
-      "kind": "method",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "A callback method that is invoked immediately after the\ndefault change detector has checked the directive's\ndata-bound properties for the first time,\nand before any of the view or content children have been checked.\nIt is invoked only once when the directive is instantiated.",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 106,
-        "column": 3
-      },
-      "signatures": [
-        {
-          "text": "(): Promise<void>",
-          "parameters": [],
-          "returnType": {
-            "text": "Promise<void>",
-            "symbolIds": []
-          },
-          "typeParameters": []
-        }
-      ]
-    },
     "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:onRouteActivate": {
       "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:onRouteActivate",
       "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
@@ -1282,7 +1105,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 112,
+        "line": 92,
         "column": 3
       },
       "signatures": [
@@ -1293,57 +1116,6 @@
               "name": "component",
               "type": {
                 "text": "TaonDocsPageComponent",
-                "symbolIds": []
-              },
-              "optional": false,
-              "rest": false,
-              "docs": {
-                "description": "",
-                "tags": []
-              }
-            }
-          ],
-          "returnType": {
-            "text": "void",
-            "symbolIds": []
-          },
-          "typeParameters": []
-        }
-      ]
-    },
-    "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:onResize": {
-      "id": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent::method:onResize",
-      "ownerId": "src/lib/docs-page/docs-page.component.ts#DocsPageComponent",
-      "name": "onResize",
-      "kind": "method",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [
-        {
-          "name": "HostListener",
-          "expression": "HostListener('window:resize', ['$event'])"
-        }
-      ],
-      "location": {
-        "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 132,
-        "column": 3
-      },
-      "signatures": [
-        {
-          "text": "(event: Event): void",
-          "parameters": [
-            {
-              "name": "event",
-              "type": {
-                "text": "Event",
                 "symbolIds": []
               },
               "optional": false,
@@ -1379,7 +1151,7 @@
       "decorators": [],
       "location": {
         "fileId": "src/lib/docs-page/docs-page.component.ts",
-        "line": 140,
+        "line": 114,
         "column": 3
       },
       "signatures": [

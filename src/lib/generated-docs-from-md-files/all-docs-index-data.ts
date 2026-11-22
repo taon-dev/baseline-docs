@@ -1104,7 +1104,7 @@ export const BaselineDocsDocsIndexData = [
     "filePath": "baseline-docs/README.md",
     "headingId": "baseline-docs",
     "headingTitle": "baseline-docs",
-    "text": "baseline-docs Hello from Standalone Project",
+    "text": "baseline-docs Welcome. Taon docs are amazing !",
     "api": false
   }
 ] as any;
