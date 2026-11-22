@@ -81,7 +81,7 @@ import { ENV_ANGULAR_NODE_APP_BUILD_PWA_DISABLE_SERVICE_WORKER } from './lib/env
 //#endregion
 
 //#region constants
-console.log('🚀 [ TAON IS STARTING ]');
+console.log('🚀 [ TAON DOCS IS STARTING ]');
 const t = Translation.for(Taon.__FILE_RELATIVE_PATH, Taon.LANG_IMPORT_MAP, {
   // debug: true
 });
